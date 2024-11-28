@@ -7,7 +7,13 @@ body {
 
 img {
   max-height: 70%;
+  border: 10px solid white;
   border-radius: 10px;
+}
+
+img:hover {
+  border: 10px dashed red;
+  transform: scale(2);
 }
 
 a {
@@ -40,15 +46,12 @@ p {
   border-radius: 5px;
 }
 
-.location_container > a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px;
-  text-align: center;
-  /* border: 2px solid #ccc;
-  border-radius: 5px; */
+.image-container {
+  display: contents;
+}
+
+.description_text {
+  text-align: justify;
 }
 
 .container .current-location {
@@ -57,10 +60,6 @@ p {
 
 .align-center {
   vertical-align: center;
-}
-
-.m-0 {
-  margin: 0;
 }
 
 .mr-20 {
